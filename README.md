@@ -35,7 +35,7 @@ Feel free to explore and use the projects for learning and inspiration. To run a
 
 2. Navigate to the project folder:
    ```bash
-   cd project-folder-name
+   cd project-starters
    ```
 
 3. Open the project in your browser or preferred editor.
