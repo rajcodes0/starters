@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            background-color: #333;
+        }
+
+        .logo {
+            display: flex;
+            width: 20%;
+            height: 70px;
+        }
+
+        .links {
+            display: flex;
+            gap: 40px;
+        }
+
+        .links li {
+            list-style: none;
+          
+        }
+
+        .links li a {
+           
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        .links li a:hover {
+            color: #00bcd4;
+            /* font-size: 20px;
+            transition: font-size 0.3s ease; */
+        }
+
+     
+        button {
+            background-color: #00bcd4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #008c9e;
+        }
+
+        
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+              
+            }
+
+            .links {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                margin-top: 20px;
+            }
+
+            .logo {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="removed.png" alt="Logo"></div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Resumes</a></li>
+                <li><a href="#">Something</a></li>
+            </ul>
+            <button><a href="#" style="color: white;">Home</a></button>
+        </nav>
+    </header>
+</body>
+
+</html>

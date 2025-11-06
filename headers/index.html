@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: slateblue
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+    }
+
+    ul li a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+    }
+
+ a:hover {
+        color: #000000;
+        cursor: pointer;
+    }
+
+   a:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: aqua;
+        transition:width 0.3s ease;
+    }
+  a:hover:after{
+        width: 100%;
+    }
+
+    button {
+        color: white;
+        font-size: 16px;
+        background-color: rgba(176, 196, 222, 1);
+        border: none;
+        border-radius: 100px;
+        width: 90px;
+        margin-right: 10px;
+        padding: 0;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: skyblue;
+        color: black;
+    }
+
+    button:active {
+        background-color: #4b4b9e;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">setings</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <button>like me</button>
+
+        </nav>
+    </header>
+</body>
+
+</html>
