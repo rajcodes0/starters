@@ -2,17 +2,8 @@
 
 Welcome to **Starters**, a collection of small and intermediate coding projects that showcase the journey of a developer. Whether you’re here to learn, explore, or find inspiration, this repository aims to provide something valuable for everyone. ✨🚀💻
 
----
 
-## About The Coding Journey
-Hi, I'm Raj! I’m a passionate programmer with a keen interest in web development and creative coding experiments. Through this repository, the goal is to document coding progress and share projects that reflect the learning process. 💡🌟📚
 
-Stay connected and follow the journey:
-- **Instagram:** [@raj.aug05](https://www.instagram.com/raj.aug05/profilecard/?igsh=eXFoZ2NkbDZ1N3dk)
-- **YouTube:** [Droodon Tech](https://youtube.com/@droodon-tech?si=fwJbNxww3nyqBlhN)
-- **LinkedIn:** [Raj Kumar](https://www.linkedin.com/in/raj-kumar-a0b990289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-
----
 
 ## Repository Overview
 This repository includes a variety of coding projects, each designed to explore different aspects of programming. From interactive web designs to mini-games and more, **Starters** is all about experimenting and learning. 🎨📂⚙️
